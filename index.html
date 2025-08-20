@@ -77,66 +77,154 @@
         </header>
 
         <main>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active slider" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="slider" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="slider" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="slider" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="slider" aria-label="Slide 5"></button>
+            <!-- Slider Section Start -->
+            <section>
+                <div id="carouselExampleDark">
+                    class="carousel carousel-white slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="0" class="active slider"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="1" aria-label="Slide 2"
+                            class="slider"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="2" aria-label="Slide 3"
+                            class="slider"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="3" aria-label="Slide 4"
+                            class="slider"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="4" aria-label="Slide 5"
+                            class="slider"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                            data-bs-interval="10000">
+                            <img src="Images/slider1.jpg" class="d-block w-100"
+                                alt="Slide 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Shopping</h5>
+                                <p>Shopping a Cloths and Gym Equpments from our
+                                    webside</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="Images/slider2.jpg" class="d-block w-100"
+                                alt="Slide 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Waight Training</h5>
+                                <p>BUILD YOUR STRENGTH</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slider3.jpg" class="d-block w-100"
+                                alt="Slide 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Online Training</h5>
+                                <p>Start Your Online Training From Now</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slider4.jpg" class="d-block w-100"
+                                alt="Slide 4">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Books Your Ticket</h5>
+                                <p>Enjoy the Sports</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slider5.jpg" class="d-block w-100"
+                                alt="Slide 5">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>YOGA</h5>
+                                <p>Start Your Yoga Now</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="https://images.unsplash.com/photo-1594737625785-4194c0e8f002?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1920" class="d-block w-100" alt="Workout 1">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Strength Training</h5>
-                            <p>Push your limits and build muscle effectively.</p>
+            </section>
+            <!-- Slider Section End -->
+
+            <section>
+                <!-- Card Section Started -->
+                <div class="container">
+                    <h1>Our Services</h1>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card1.jpg"
+                                    class="card-img-top img-fluid"
+                                    alt="Service 1">
+                                <div class="card-body">
+                                    <p class="card-text">Start Shopping Now</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <img src="https://images.unsplash.com/photo-1599058917217-f57b3c3e3c34?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1920" class="d-block w-100" alt="Workout 2">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Cardio Fitness</h5>
-                            <p>Boost endurance and stamina with high-intensity workouts.</p>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card2.jpg"
+                                    class="card-img-top img-fluid"
+                                    alt="Service 2">
+                                <div class="card-body">
+                                    <p class="card-text">Start Your Sports Journey With Us</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <img src="https://images.unsplash.com/photo-1594737625936-69b34c8b9f56?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1920" class="d-block w-100" alt="Workout 3">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Functional Training</h5>
-                            <p>Improve your everyday performance and agility.</p>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card3.jpg"
+                                    class="card-img-top img-fluid"
+                                    alt="Service 3">
+                                <div class="card-body">
+                                    <p class="card-text">Start Your Profectonal Training With Us</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <img src="https://images.unsplash.com/photo-1594737625817-6e6a2042b99a?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1920" class="d-block w-100" alt="Workout 4">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Group Training</h5>
-                            <p>Stay motivated by training with others.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <img src="https://images.unsplash.com/photo-1594737625772-0b72edc7cfb0?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1920" class="d-block w-100" alt="Workout 5">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Personal Training</h5>
-                            <p>Get expert guidance to achieve your fitness goals.</p>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card4.jpg"
+                                    class="card-img-top img-fluid"
+                                    alt="Service 4">
+                                <div class="card-body">
+                                    <p class="card-text">Build a Strength</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            </section>
         </main>
 
         <footer></footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
