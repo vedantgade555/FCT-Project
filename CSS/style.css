@@ -1,3 +1,16 @@
-.nav-item:hover{
-  color: red;
+body{
+  background-color: #050303;
+  
+}
+#title{
+  text-align: center;
+  font-weight: bold;
+  background-color: #050303;
+  
+  color: #b3b3b3;;
+}
+
+.card-title{
+  color: bisque;
+  padding-bottom: 10px;
 }
