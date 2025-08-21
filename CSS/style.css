@@ -1,16 +1,46 @@
-body{
-  background-color: #050303;
-  
-}
-#title{
-  text-align: center;
-  font-weight: bold;
-  background-color: #050303;
-  
-  color: #b3b3b3;;
+body {
+  background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.card-title{
-  color: bisque;
+
+#title {
+  text-align: center;
+  font-weight: bold;
+  /* background-color: #050303; */
+  font-size: ;
+  color: white;
+  font-size: 50px;
+}
+
+h1.card-title {
+  color: white;
   padding-bottom: 10px;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+
+.navbar{
+  position: sticky;
+  top: 10px;
+}
+
+.fit-pass-section .card {
+  background-color: transparent !important;
+  border: none;
+  /* box-shadow: 5px 5px 5px rgb(240, 3, 216); */
+  border-radius: 40px;
+  
+}
+
+.fit-pass-section{
+  background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fit-pass-section .card img{
+  border-radius: 20px;
 }
