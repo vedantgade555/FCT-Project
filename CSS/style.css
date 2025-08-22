@@ -8,7 +8,7 @@ body {
 #title {
   text-align: center;
   font-weight: bold;
-  /* background-color: #050303; */
+  /* background-color: ; */
   font-size: ;
   color: white;
   font-size: 50px;
@@ -44,3 +44,27 @@ h1.card-title {
 .fit-pass-section .card img{
   border-radius: 20px;
 }
+
+.card-body h1,ul{
+  color: aliceblue;
+}
+
+header{
+  position: sticky;
+  top: 0;             /* sticks at the top */
+  z-index: 1020;      /* makes sure it stays above other content */
+  background-color:  #0b0c0d;
+}
+
+li.nav-item{
+  color: white;
+}
+
+.navbar .nl{
+  color: white;
+  font-size: 2rem;
+}
+
+    
+
+
