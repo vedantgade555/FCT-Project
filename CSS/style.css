@@ -32,10 +32,6 @@ h1.card-title,.fitpass {
 
 
 
-.navbar{
-  position: sticky;
-  top: 10px;
-}
 
 .fit-pass-section .card {
   background-color: transparent !important;

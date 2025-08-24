@@ -13,11 +13,7 @@ header {
     overflow: visible;
 }
 
-.nav2 {
-  position: sticky;
-  top: 10px;             /* sticks at the top */
-  z-index: 1020; 
-  background-color:  #0b0c0d;
+
 }
 
 .nav2 .nav-link {
@@ -26,7 +22,7 @@ header {
     font-size: 1.5rem;
 }
 
-.nav2 .nav-link:hover{
+.navbar .nav-link:hover{
   background: linear-gradient(to right,rgb(39, 46, 49),rgb(18,176,204),rgb(199,35,103));
   background-clip:text;
   -webkit-text-fill-color: transparent;
@@ -40,8 +36,23 @@ header {
 }
 
 
+
+
 .nav2 .nav-link {
     color: white; 
     font-weight: 900;
     font-size: 1.5rem;
+    /* background-color: #0b0c0d; */
 }
+
+.nav2{
+  background-color:  #0b0c0d;  
+}
+
+header{
+  position: sticky;
+  top:0;             /* sticks at the top */
+  z-index: 1020;      /* makes sure it stays above other content */
+  background-color:  #0b0c0d;
+}
+
