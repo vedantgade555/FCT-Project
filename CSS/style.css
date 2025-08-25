@@ -101,6 +101,15 @@ footer{
   border: none;
 }
 
+.card {
+  transition: transform 0.7s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
+
 
 
 
