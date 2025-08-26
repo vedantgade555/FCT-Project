@@ -23,7 +23,7 @@ body {
 
 
 
-h1.card-title {
+h1.card-title,.fitpass {
   color: white;
   padding-bottom: 10px;
   font-size: 100px;
@@ -32,10 +32,6 @@ h1.card-title {
 
 
 
-.navbar{
-  position: sticky;
-  top: 10px;
-}
 
 .fit-pass-section .card {
   background-color: transparent !important;
@@ -54,15 +50,12 @@ h1.card-title {
   border-radius: 20px;
 }
 
-.card-body h1,ul{
-  color: aliceblue;
-}
 
 /* This style used to become navbar sticky and its background color dark */
 
 header{
   position: sticky;
-  top: 10;             /* sticks at the top */
+  top:0;             /* sticks at the top */
   z-index: 1020;      /* makes sure it stays above other content */
   background-color:  #0b0c0d;
 }
@@ -85,5 +78,38 @@ li.nav-item{
 
 }
     
+footer{
+  
+  background-image: url("/backgroundImages/yellowlines.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body{
+  text-align: center;
+  background: linear-gradient(to right,rgb(152, 135, 135),rgb(81, 22, 110),rgb(11, 54, 61),rgb(46, 14, 14),rgb(199,35,103));
+  background-clip:text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.fpc{
+  /* background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #0b0c0d;
+  /* border-radius: 20px; */
+  border: none;
+}
+
+.card {
+  transition: transform 0.7s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
+
+
 
 
