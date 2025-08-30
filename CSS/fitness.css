@@ -59,9 +59,16 @@ header{
 
 h1.card-title,.fitpass {
   color: white;
-  padding-bottom: 10px;
-  font-size: 100px;
+  padding-bottom: 80px;
+  font-size: 90px;
   text-align: center;
+}
+
+h4.card-head{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 80px;
 }
 
 
