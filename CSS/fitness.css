@@ -56,3 +56,72 @@ header{
   background-color:  #0b0c0d;
 }
 
+
+h1.card-title,.fitpass {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+
+
+.fit-pass-section .card {
+  background-color: transparent !important;
+  border: none;
+  /* box-shadow: 5px 5px 5px rgb(240, 3, 216); */
+  border-radius: 40px;
+  
+}
+
+.fit-pass-section{
+  background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: aliceblue; */
+}
+.fit-pass-section .card img{
+  border-radius: 20px;
+}
+
+
+.card-body{
+  text-align: center;
+  background: linear-gradient(to right,rgb(180, 150, 150),rgb(132, 11, 193),rgb(7, 168, 193),rgb(184, 22, 22),rgb(255, 255, 255));
+  background-clip:text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.fpc{
+  /* background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #0b0c0d;
+  /* border-radius: 20px; */
+  border: none;
+}
+
+.card {
+  transition: transform 0.7s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
+
+footer{
+  background-color: #111213;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  
+}
