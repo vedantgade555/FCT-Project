@@ -1,0 +1,27 @@
+.elite1 h1{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 100px;
+    text-align: center;
+}
+
+.elite1 li{
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.elite1 h4{
+    text-align: center;
+    color: white;
+}
+
+button{
+    background-color: white;
+}
+
+
+.container p{
+    color: white;
+}
