@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymX | Proteins</title>
+  <link rel="stylesheet" href="CSS/protien.css">
+</head>
+<body>
+  
+  <div class="hero">
+    <h1>Our Protein & Supplements</h1>
+  </div>
+
+  <section class="filter-section">
+    <button class="filter-btn active" onclick="filterItems('all')">All</button>
+    <button class="filter-btn" onclick="filterItems('whey')">Whey Protein</button>
+    <button class="filter-btn" onclick="filterItems('mass')">Mass Gainer</button>
+    <button class="filter-btn" onclick="filterItems('bcaa')">BCAA</button>
+    <button class="filter-btn" onclick="filterItems('preworkout')">Pre-Workout</button>
+    <button class="filter-btn" onclick="filterItems('creatine')">Creatine</button>
+  </section>
+
+
+  <section class="equipment-section">
+    <h2>Premium Protein & Supplements</h2>
+    <div class="equipment-grid">
+
+  
+      <div class="equipment-card whey">
+        <img src="https://images.unsplash.com/photo-1622139406099-918a1962fa2b?auto=format&fit=crop&w=800&q=80" alt="Whey Protein">
+        <div class="equipment-content">
+          <h3>Whey Protein Isolate</h3>
+          <p>Fast-digesting protein to fuel muscle recovery.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card whey">
+        <img src="https://images.unsplash.com/photo-1635265819996-d51ac3aaee47?auto=format&fit=crop&w=800&q=80" alt="Whey Chocolate">
+        <div class="equipment-content">
+          <h3>Chocolate Whey Protein</h3>
+          <p>Delicious chocolate flavor packed with protein.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card mass">
+        <img src="https://images.unsplash.com/photo-1615484477641-f7db6d4aa0f4?auto=format&fit=crop&w=800&q=80" alt="Mass Gainer">
+        <div class="equipment-content">
+          <h3>Mass Gainer</h3>
+          <p>High-calorie supplement to support weight gain and muscle growth.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card mass">
+        <img src="https://images.unsplash.com/photo-1640622654800-942e75ff6d15?auto=format&fit=crop&w=800&q=80" alt="Mass Gainer Extreme">
+        <div class="equipment-content">
+          <h3>Extreme Mass Gainer</h3>
+          <p>Boost muscle size with a rich blend of carbs and protein.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card bcaa">
+        <img src="https://images.unsplash.com/photo-1624555131096-3791e5bb9d05?auto=format&fit=crop&w=800&q=80" alt="BCAA">
+        <div class="equipment-content">
+          <h3>BCAA Supplement</h3>
+          <p>Improve endurance and reduce muscle fatigue during workouts.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card preworkout">
+        <img src="https://images.unsplash.com/photo-1585238342018-cab0f7d5c16b?auto=format&fit=crop&w=800&q=80" alt="Pre-Workout">
+        <div class="equipment-content">
+          <h3>Pre-Workout Energy</h3>
+          <p>Boost your focus, strength, and stamina before every session.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card creatine">
+        <img src="https://images.unsplash.com/photo-1622057025209-5f75e4c2aaca?auto=format&fit=crop&w=800&q=80" alt="Creatine">
+        <div class="equipment-content">
+          <h3>Creatine Monohydrate</h3>
+          <p>Enhance strength and performance with pure creatine.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card creatine">
+        <img src="https://images.unsplash.com/photo-1624454002951-bb9b08df755e?auto=format&fit=crop&w=800&q=80" alt="Micronized Creatine">
+        <div class="equipment-content">
+          <h3>Micronized Creatine</h3>
+          <p>Faster absorption and better results for strength training.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script>
+    function filterItems(category) {
+      let items = document.querySelectorAll('.equipment-card');
+      let buttons = document.querySelectorAll('.filter-btn');
+
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
