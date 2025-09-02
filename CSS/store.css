@@ -1,0 +1,92 @@
+*{
+  font-size: 'Gill Sans','Gill Sana MT',Calibri,'Trebuchet MS',sans-serif;
+}
+body {
+  background-image: url("/backgroundImages/blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+.fit-pass-section .card {
+  background-color: transparent !important;
+  border: none;
+  /* box-shadow: 5px 5px 5px rgb(240, 3, 216); */
+  border-radius: 40px;
+  
+}
+
+.fit-pass-section{
+  background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fit-pass-section .card img{
+  border-radius: 20px;
+}
+
+
+/* This style used to become navbar sticky and its background color dark */
+
+header{
+  position: sticky;
+  top:0;             /* sticks at the top */
+  z-index: 1020;      /* makes sure it stays above other content */
+  background-color:  #0b0c0d;
+}
+/* This will be used to given white color to our navbar */
+li.nav-item{
+  color: white;
+}
+
+
+.navbar .nl{
+  color: white;
+  font-size: 2rem;
+ 
+}
+
+.navbar .nl:hover{
+  background: linear-gradient(to right,rgb(39, 46, 49),rgb(18,176,204),rgb(199,35,103));
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+
+}
+    
+footer{
+  
+  background-image: url("/backgroundImages/yellowlines.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.equipment-banner {
+    background: url('images/gym-banner.jpg') no-repeat center center/cover;
+    padding: 100px 20px;   /* space around heading */
+    text-align: center;
+    position: relative;
+    color: yellow;
+}
+
+.equipment-banner::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6); /* dark overlay */
+    z-index: 0;
+}
+
+.equipment-banner h2 {
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1; /* keep text above overlay */
+    letter-spacing: 3px;
+}
