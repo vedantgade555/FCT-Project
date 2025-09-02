@@ -1,9 +1,10 @@
-*{
-  font-size: 'Gill Sans','Gill Sana MT',Calibri,'Trebuchet MS',sans-serif;
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 body {
   background-image: url("/backgroundImages/blue.png");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
@@ -45,10 +46,12 @@ h1.card-title,.fitpass {
   background-image: url("/backgroundImages/pink.png");
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-color: aliceblue; */
 }
 .fit-pass-section .card img{
   border-radius: 20px;
 }
+
 
 
 /* This style used to become navbar sticky and its background color dark */
@@ -78,16 +81,11 @@ li.nav-item{
 
 }
     
-footer{
-  
-  background-image: url("/backgroundImages/yellowlines.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .card-body{
   text-align: center;
-  background: linear-gradient(to right,rgb(152, 135, 135),rgb(81, 22, 110),rgb(11, 54, 61),rgb(46, 14, 14),rgb(199,35,103));
+  background: linear-gradient(to right,rgb(180, 150, 150),rgb(132, 11, 193),rgb(7, 168, 193),rgb(184, 22, 22),rgb(255, 255, 255));
   background-clip:text;
   -webkit-text-fill-color: transparent; 
 }
@@ -110,6 +108,17 @@ footer{
   z-index: 10;
 }
 
+footer{
+  background-color: #111213;
+}
 
+.footer-bottom{
+  text-align: center;
+  color: whitesmoke;
+}
 
-
+footer a{
+  text-decoration: none;
+  color: white;
+  
+}

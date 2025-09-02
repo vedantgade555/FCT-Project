@@ -3,23 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>EasyFit</title>
 
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-            crossorigin="anonymous" />
-
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
         <link rel="stylesheet" href="CSS/style.css">
-
     </head>
     <body>
 
+        <!-- Header -->
         <header>
-            <!-- Nav Bar Started -->
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid ">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
                     <a class="navbar-brand d-flex align-items-center nl"
                         href="index.html">
                         <img src="Images/logo.png" alt="EasyFit Logo"
@@ -33,220 +29,230 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse justify-content-center"
                         id="navbarNav">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item pe-10">
+                        <ul class="navbar-nav">
+                            <li class="nav-item pe-3">
                                 <a class="nav-link nl"
                                     href="fitness.html">FITNESS</a>
                             </li>
-                            <li class="nav-item pe-10">
-                                <a class="nav-link nl"
-                                    href="sports.html">SPORTS</a>
-                            </li>
-                            <li class="nav-item pe-10">
+
+                            <li class="nav-item pe-3">
                                 <a class="nav-link nl"
                                     href="store.html">STORE</a>
                             </li>
-
                         </ul>
+
                     </div>
+
+                    <a class="navbar-brand d-flex align-items-center nl"
+                        href="index.html">
+                        <img src="Images/location.webp" alt="location"
+                            height="30" class="ps-20">
+                        PUNE
+                    </a>
+
+                    <a class="navbar-brand d-flex align-items-center nl"
+                        href="index.html">
+                        <img src="Images/contact.webp" alt="contact"
+                            height="30" class="ps-20">
+                    </a>
+
+                    <a class="navbar-brand d-flex align-items-center nl"
+                        href="index.html">
+                        <img src="Images/cart-dark-theme.webp" alt="cart"
+                            height="30" class="ps-20">
+                    </a>
                 </div>
             </nav>
-            <!-- nav bar end -->
         </header>
+        <!-- End Header -->
 
         <main>
+            <!-- Title -->
             <h1 id="title">Your journey to fitness starts here.</h1>
 
-            <!-- Slider Section Start -->
-            <section>
-                <section>
-                    <div id="carouselExampleDark"
-                        class="carousel carousel-light slide"
-                        data-bs-ride="carousel">
-
-                        <!-- Indicators -->
-                        <div class="carousel-indicators">
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="0" class="active slider"
-                                aria-current="true"
-                                aria-label="Slide 1"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="1" aria-label="Slide 2"
-                                class="slider"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="2" aria-label="Slide 3"
-                                class="slider"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="3" aria-label="Slide 4"
-                                class="slider"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="4" aria-label="Slide 5"
-                                class="slider"></button>
-                        </div>
-
-                        <!-- Slides -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"
-                                data-bs-interval="5000">
-                                <img src="Images/slider1.jpg"
-                                    class="d-block w-100" alt="Slide 1">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Shopping</h5>
-                                    <p>Shop clothes and gym equipment from our
-                                        website</p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Images/slider2.jpg"
-                                    class="d-block w-100" alt="Slide 2">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Weight Training</h5>
-                                    <p>Build your strength</p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="Images/slider3.jpg"
-                                    class="d-block w-100" alt="Slide 3">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Online Training</h5>
-                                    <p>Start your online training now</p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="Images/slider4.jpg"
-                                    class="d-block w-100" alt="Slide 4">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Book Your Ticket</h5>
-                                    <p>Enjoy the sports</p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="Images/slider5.jpg"
-                                    class="d-block w-100" alt="Slide 5">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Yoga</h5>
-                                    <p>Start your yoga now</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <button class="carousel-control-prev" type="button"
+            <!-- Slider Section -->
+            <section class="mb-5">
+                <div id="carouselExampleDark"
+                    class="carousel carousel-light slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
                             data-bs-target="#carouselExampleDark"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"
-                                aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
+                            data-bs-slide-to="0" class="active"></button>
+                        <button type="button"
                             data-bs-target="#carouselExampleDark"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"
-                                aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                            data-bs-slide-to="1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="3"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="4"></button>
                     </div>
-                </section>
 
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                            data-bs-interval="5000">
+                            <img src="Images/slider1.jpg" class="d-block w-100"
+                                alt="Shopping">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Shopping</h5>
+                                <p>Shop clothes and gym equipment from our
+                                    website</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="Images/slider2.jpg" class="d-block w-100"
+                                alt="Weight Training">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Weight Training</h5>
+                                <p>Build your strength</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slider3.jpg" class="d-block w-100"
+                                alt="Online Training">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Online Training</h5>
+                                <p>Start your online training now</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slider4.jpg" class="d-block w-100"
+                                alt="Sports">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Book Your Ticket</h5>
+                                <p>Enjoy the sports</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slider5.jpg" class="d-block w-100"
+                                alt="Yoga">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Yoga</h5>
+                                <p>Start your yoga now</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </section>
-            <!-- Slider Section End -->
+            <!-- End Slider -->
 
-            <!-- Card Section Started 1 -->
-
-            <!-- Card Section -->
-            <section class="mt-3">
+            
+            <!-- Services Section -->
+            <section class="mt-5">
                 <div class="container">
                     <h1 class="card-title">Our Services</h1>
-                    <div class="row">
+                    <div class="row g-4">
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="Images/card1.jpg"
-                                    class="card-img-top img-fluid"
+                                <img src="Images/card1.jpg" class="card-img-top"
                                     alt="Service 1">
                                 <div class="card-body">
                                     <p class="card-text">Aerial photography &
-                                        videography
-                                        Agriculture (crop monitoring,
-                                        spraying</p>
+                                        videography Agriculture (crop
+                                        monitoring, spraying)</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="Images/card2.jpg"
-                                    class="card-img-top img-fluid"
+                                <img src="Images/card2.jpg" class="card-img-top"
                                     alt="Service 2">
                                 <div class="card-body">
                                     <p class="card-text">A drone bee is the male
-                                        bee
-                                        in a colony.
-
-                                        Main role: mate with the queen</p>
+                                        bee in a colony. Main role: mate with
+                                        the queen.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="Images/card3.jpg"
-                                    class="card-img-top img-fluid"
+                                <img src="Images/card3.jpg" class="card-img-top"
                                     alt="Service 3">
                                 <div class="card-body">
                                     <p class="card-text">They don’t collect
-                                        nectar
-                                        or pollen. Lorem ipsum dolor sit amet.
-
-                                    </p>
+                                        nectar or pollen. Lorem ipsum dolor sit
+                                        amet.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="Images/card4.jpg"
-                                    class="card-img-top img-fluid"
+                                <img src="Images/card4.jpg" class="card-img-top"
                                     alt="Service 4">
                                 <div class="card-body">
                                     <p class="card-text">A drone is a sustained
-                                        continuous sound or note.
-
-                                    </p>
+                                        continuous sound or note.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Card Section End 2 -->
+            <!-- End Services -->
 
-            <!-- Card Section Started 1 -->
+            <section class="my-5 text-center">
+                <div class="container position-relative"
+                    style="max-width: 400px;">
+                    <!-- Phone image -->
+                    <img src="Images/phone.png" alt="phone"
+                        class="img-fluid d-block">
 
-            <!-- fit pass started -->
+                    <!-- Video overlay (inside phone screen) -->
+                    <video autoplay loop muted playsinline
+                        src="https://curefit-content.s3.ap-south-1.amazonaws.com/image/test/cult-pass-live-animation/video/Cultpass+Live+session.mp4"
+                        class="position-absolute top-50 start-50 translate-middle"
+                        style="width: 72%; height: 78%; object-fit: cover; border-radius: 20px;">
+                    </video>
+                </div>
+            </section>
+
+
+
+
             <section>
-                <div class="container mb-5">
+                <div class="container">
+                    <a href="#">
+                        <img src="Images/transform.jpg" alt="ts"
+                            class="img-fluid mt-5">
+                    </a>
+                </div>
+            </section>
+
+            <!-- Fit Pass Section -->
+            <section class="fit-pass-section mt-5">
+                <div class="container mb-5 fit-pass-section">
                     <div class="row">
                         <h1 class="fitpass">FIT PASS</h1>
-                        <div class="col-md-3">
+
+                        <!-- Card 1 -->
+                        <div class="col-md-3 mb-4">
                             <div class="card fpc">
                                 <img src="Images/fp1.jpg"
                                     class="card-img-top img-fluid"
-                                    alt="Service 1">
+                                    alt="EasyFit Elite">
                                 <div class="card-body">
-
                                     <h3 class="fp-title">EasyFit ELITE</h3>
-
                                 </div>
 
                                 <!-- Button trigger modal -->
@@ -256,200 +262,254 @@
                                     data-bs-target="#fit-pass1">
                                     More Info
                                 </button>
+                            </div>
+                        </div>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="fit-pass1"
-                                    tabindex="-1"
-                                    aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title"
-                                                    id="exampleModalLabel">Fighter</h5>
-                                                <button type="button"
-                                                    class="btn-close"
-                                                    data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button"
-                                                    class="btn btn-secondary"
-                                                    data-bs-dismiss="modal">Close</button>
-
-                                            </div>
-                                        </div>
+                        <!-- Modal 1 -->
+                        <div class="modal fade" id="fit-pass1" tabindex="-1"
+                            aria-labelledby="fitPass1Label" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h class="modal-title"
+                                            id="fitPass1Label">EasyFit
+                                            ELITE</h3>
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Details about EasyFit ELITE go
+                                            here.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+
+                        <!-- Card 2 -->
+                        <div class="col-md-3 mb-4">
                             <div class="card fpc">
                                 <img src="Images/fp2.jpg"
                                     class="card-img-top img-fluid"
-                                    alt="Service 1">
+                                    alt="EasyFit Pro">
                                 <div class="card-body">
-
                                     <h3>EasyFit PRO</h3>
-
                                 </div>
-
-                                <!-- Button trigger modal -->
                                 <button type="button"
                                     class="btn btn-outline-success mt-3"
                                     data-bs-toggle="modal"
                                     data-bs-target="#fit-pass2">
                                     More Info
                                 </button>
+                            </div>
+                        </div>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="fit-pass2"
-                                    tabindex="-1"
-                                    aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title"
-                                                    id="exampleModalLabel">Fighter</h5>
-                                                <button type="button"
-                                                    class="btn-close"
-                                                    data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button"
-                                                    class="btn btn-secondary"
-                                                    data-bs-dismiss="modal">Close</button>
-
-                                            </div>
-                                        </div>
+                        <!-- Modal 2 -->
+                        <div class="modal fade" id="fit-pass2" tabindex="-1"
+                            aria-labelledby="fitPass2Label" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title"
+                                            id="fitPass2Label">EasyFit PRO</h5>
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Details about EasyFit PRO go
+                                            here.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+
+                        <!-- Card 3 -->
+                        <div class="col-md-3 mb-4">
                             <div class="card fpc">
                                 <img src="Images/fp3.jpg"
                                     class="card-img-top img-fluid"
-                                    alt="Service 1">
+                                    alt="EasyFit Play">
                                 <div class="card-body">
-
                                     <h3>EasyFit PLAY</h3>
-
                                 </div>
-
-                                <!-- Button trigger modal -->
                                 <button type="button"
                                     class="btn btn-outline-success mt-3"
                                     data-bs-toggle="modal"
                                     data-bs-target="#fit-pass3">
                                     More Info
                                 </button>
+                            </div>
+                        </div>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="fit-pass3"
-                                    tabindex="-1"
-                                    aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title"
-                                                    id="exampleModalLabel">Fighter</h5>
-                                                <button type="button"
-                                                    class="btn-close"
-                                                    data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button"
-                                                    class="btn btn-secondary"
-                                                    data-bs-dismiss="modal">Close</button>
-
-                                            </div>
-                                        </div>
+                        <!-- Modal 3 -->
+                        <div class="modal fade" id="fit-pass3" tabindex="-1"
+                            aria-labelledby="fitPass3Label" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title"
+                                            id="fitPass3Label">EasyFit PLAY</h3>
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Details about EasyFit PLAY go
+                                            here.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+
+                        <!-- Card 4 -->
+                        <div class="col-md-3 mb-4">
                             <div class="card fpc">
                                 <img src="Images/fp4.jpg"
                                     class="card-img-top img-fluid"
-                                    alt="Service 1">
-                                <div class="card-body cb">
-
+                                    alt="EasyFit Select">
+                                <div class="card-body">
                                     <h3>EasyFit SELECT</h3>
-
                                 </div>
-
-                                <!-- Button trigger modal -->
                                 <button type="button"
                                     class="btn btn-outline-success mt-3"
                                     data-bs-toggle="modal"
                                     data-bs-target="#fit-pass4">
                                     More Info
                                 </button>
+                            </div>
+                        </div>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="fit-pass4"
-                                    tabindex="-1"
-                                    aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title"
-                                                    id="exampleModalLabel">Fighter</h5>
-                                                <button type="button"
-                                                    class="btn-close"
-                                                    data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button"
-                                                    class="btn btn-secondary"
-                                                    data-bs-dismiss="modal">Close</button>
-
-                                            </div>
-                                        </div>
+                        <!-- Modal 4 -->
+                        <div class="modal fade" id="fit-pass4" tabindex="-1"
+                            aria-labelledby="fitPass4Label" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title"
+                                            id="fitPass4Label">EasyFit
+                                            SELECT</h3>
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Details about EasyFit SELECT go
+                                            here.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
-            </section>
-            <!-- fit pass end -->
 
+            </section>
+            <!-- End Fit Pass -->
+            <section>
+
+            </section>
         </main>
 
-        <footer>
+        <footer class="py-5">
+            <!-- <section class="footer-section">
+             <div class="container">
+             <p>At EasyFit, we make group workouts fun, daily food healthy &
+                tasty, mental fitness easy with yoga & meditation, and medical &
+                lifestyle care hassle-free.
+                #BeBetterEveryDay</p>
+           </div>
+          </section> -->
 
+            <section class="main-footer pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="#">Related Search</a>
+                            <a href="#">Gym Near Me</a>
+                            <a href="#">Gyms in Bangalore</a>
+                            <a href="#">Swimming Essentials</a>
+                            <a href="#">How to Lose Weight</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#">Pilates in HSR Layout, Bangalore</a>
+                            <a href="#">Pilates in Kormangala, Bangalore</a>
+                            <a href="#">Massager & Massage Chair</a>
+                            <a href="#">Treadmills & Exercise Bikes</a>
+                            <a href="#">Sports shoes</a>
+                            <a href="#">Gym Accessories</a>
+                            <a href="#">Gym Workout App - IOS</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#">Gyms in Maharashtra</a>
+                            <a href="#">Gyms in Pune</a>
+                            <a href="#">Gyms in Mumbai</a>
+                            <a href="#">Gyms in Nashik</a>
+                            <a href="#">How to Lose Weight</a>
+                            <a href="#">Gym in Vizag</a>
+                            <a href="#">Elliptical & Rower</a>
+
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#">FitPass</a>
+                            <a href="#">Gym & Group Workouts</a>
+                            <a href="#">Gyms in Mumbai</a>
+                            <a href="#">Gyms in Pune</a>
+                            <a href="#">Gyms in Mysore</a>
+                            <a href="#">HIIT Workout</a>
+                            <a href="#">Abs Workout at Home</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#">Play sports</a>
+                            <a href="#">Swimming Classes</a>
+                            <a href="#">Gyms in Noida</a>
+                            <a href="#">Gyms in Chennai</a>
+                            <a href="#">Gyms in Pune</a>
+                            <a href="#">Exercises for Toned Body</a>
+                            <a href="#">Gyms in Mumbai</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#">Sports Wear & Gym Equipment</a>
+                            <a href="#">Buy Sports Wear</a>
+                            <a href="#">Only Gym subscriptions</a>
+                            <a href="#">Home workout</a>
+                            <a href="#">6-week weight loss program</a>
+                            <a href="#">Core Exercises</a>
+                            <a href="#">Gyms in Siliguri</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 EasyFit. All Rights Reserved.</p>
+                </div>
+            </section>
         </footer>
 
         <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-            crossorigin="anonymous"></script>
-
-        
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
