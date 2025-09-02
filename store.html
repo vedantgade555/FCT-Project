@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
   <title>Gym Website - Store Section</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -239,3 +240,200 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+=======
+  <title>GymX | Equipment</title>
+  <link rel="stylesheet" href="CSS/equipment.css">
+</head>
+<body>
+
+  <section class="equipment-banner">
+    <h1>OUR EQUIPMENT</h1>
+  </section>
+
+  <!-- Filter Section -->
+  <section class="filter-section">
+    <h2>Filter Equipment</h2>
+    <div class="filter-buttons">
+      <button class="active" onclick="filterEquipment('all')">All</button>
+      <button onclick="filterEquipment('cardio')">Cardio</button>
+      <button onclick="filterEquipment('strength')">Strength</button>
+      <button onclick="filterEquipment('flexibility')">Flexibility</button>
+      <button onclick="filterEquipment('other')">Others</button>
+    </div>
+  </section>
+
+  <!-- Equipment Section -->
+  <section class="equipment-section">
+    <div class="equipment-grid">
+      <!-- Cardio -->
+      <div class="equipment-card cardio">
+        <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=1200&q=80" alt="Treadmill">
+        <div class="equipment-content">
+          <h3>Treadmill</h3>
+          <p>Modern treadmill for cardio and stamina building.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card cardio">
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1200&q=80" alt="Exercise Bike">
+        <div class="equipment-content">
+          <h3>Exercise Bike</h3>
+          <p>Burn calories with high-tech cycling machines.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card cardio">
+        <img src="https://images.unsplash.com/photo-1616279965558-d7e27169d35f?auto=format&fit=crop&w=1200&q=80" alt="Rowing Machine">
+        <div class="equipment-content">
+          <h3>Rowing Machine</h3>
+          <p>Boost endurance with full-body rowing workout.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card cardio">
+        <img src="https://images.unsplash.com/photo-1605296866985-34c6abef7f4d?auto=format&fit=crop&w=1200&q=80" alt="Elliptical">
+        <div class="equipment-content">
+          <h3>Elliptical Trainer</h3>
+          <p>Low impact cardio machine for joint-friendly exercise.</p>
+        </div>
+      </div>
+
+      <!-- Strength -->
+      <div class="equipment-card strength">
+        <img src="https://images.unsplash.com/photo-1594737625785-c0f30b0c3f5f?auto=format&fit=crop&w=1200&q=80" alt="Dumbbells">
+        <div class="equipment-content">
+          <h3>Dumbbells</h3>
+          <p>High-quality dumbbells for muscle building.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card strength">
+        <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=1200&q=80" alt="Bench Press">
+        <div class="equipment-content">
+          <h3>Bench Press</h3>
+          <p>Professional bench press setup for strength training.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card strength">
+        <img src="https://images.unsplash.com/photo-1583454110550-21bfa3f7a5b1?auto=format&fit=crop&w=1200&q=80" alt="Squat Rack">
+        <div class="equipment-content">
+          <h3>Squat Rack</h3>
+          <p>Heavy-duty squat racks for lower body workouts.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card strength">
+        <img src="https://images.unsplash.com/photo-1594737625785-937f9d6afc3a?auto=format&fit=crop&w=1200&q=80" alt="Kettlebells">
+        <div class="equipment-content">
+          <h3>Kettlebells</h3>
+          <p>Dynamic strength training with kettlebells.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card strength">
+        <img src="https://images.unsplash.com/photo-1629381345451-00489476b9ec?auto=format&fit=crop&w=1200&q=80" alt="Smith Machine">
+        <div class="equipment-content">
+          <h3>Smith Machine</h3>
+          <p>Safe and guided barbell lifting system.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card strength">
+        <img src="https://images.unsplash.com/photo-1576678927484-cc9079570883?auto=format&fit=crop&w=1200&q=80" alt="Cable Machine">
+        <div class="equipment-content">
+          <h3>Cable Machine</h3>
+          <p>Multi-functional machine for different muscle groups.</p>
+        </div>
+      </div>
+
+      <!-- Flexibility -->
+      <div class="equipment-card flexibility">
+        <img src="https://images.unsplash.com/photo-1583454110550-21bfa3f7a5b1?auto=format&fit=crop&w=1200&q=80" alt="Yoga Mats">
+        <div class="equipment-content">
+          <h3>Yoga Mats</h3>
+          <p>High grip mats for yoga and stretching exercises.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card flexibility">
+        <img src="https://images.unsplash.com/photo-1594737625785-c0f30b0c3f5f?auto=format&fit=crop&w=1200&q=80" alt="Resistance Bands">
+        <div class="equipment-content">
+          <h3>Resistance Bands</h3>
+          <p>Stretching and resistance workout essentials.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card flexibility">
+        <img src="https://images.unsplash.com/photo-1616279965558-d7e27169d35f?auto=format&fit=crop&w=1200&q=80" alt="Foam Roller">
+        <div class="equipment-content">
+          <h3>Foam Roller</h3>
+          <p>Improve recovery and flexibility with foam rolling.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card flexibility">
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1200&q=80" alt="Stretch Machine">
+        <div class="equipment-content">
+          <h3>Stretch Machine</h3>
+          <p>Assisted stretching machine for better flexibility.</p>
+        </div>
+      </div>
+
+      <!-- Other -->
+      <div class="equipment-card other">
+        <img src="https://images.unsplash.com/photo-1629381345451-00489476b9ec?auto=format&fit=crop&w=1200&q=80" alt="Battle Ropes">
+        <div class="equipment-content">
+          <h3>Battle Ropes</h3>
+          <p>High intensity ropes for full body workout.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card other">
+        <img src="https://images.unsplash.com/photo-1594737625785-937f9d6afc3a?auto=format&fit=crop&w=1200&q=80" alt="Punching Bag">
+        <div class="equipment-content">
+          <h3>Punching Bag</h3>
+          <p>Boxing and cardio training with heavy bags.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card other">
+        <img src="https://images.unsplash.com/photo-1576678927484-cc9079570883?auto=format&fit=crop&w=1200&q=80" alt="Medicine Ball">
+        <div class="equipment-content">
+          <h3>Medicine Ball</h3>
+          <p>Core strengthening with weighted medicine balls.</p>
+        </div>
+      </div>
+
+      <div class="equipment-card other">
+        <img src="https://images.unsplash.com/photo-1605296866985-34c6abef7f4d?auto=format&fit=crop&w=1200&q=80" alt="Skipping Rope">
+        <div class="equipment-content">
+          <h3>Skipping Rope</h3>
+          <p>Lightweight cardio equipment for quick workouts.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JS for Filtering -->
+  <script>
+    function filterEquipment(category) {
+      let cards = document.querySelectorAll(".equipment-card");
+      let buttons = document.querySelectorAll(".filter-buttons button");
+
+      buttons.forEach(btn => btn.classList.remove("active"));
+      event.target.classList.add("active");
+
+      cards.forEach(card => {
+        if (category === "all" || card.classList.contains(category)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+>>>>>>> 9683b5c58d5cfed30236191698ad185d114f47ce
