@@ -122,3 +122,109 @@ footer a{
   color: white;
   
 }
+
+
+/* Image Overlap */
+
+.image-container {
+    position: relative;   /* makes this the reference for absolute positioning */
+    display: inline-block;
+}
+
+.bg-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 10px;   /* distance from bottom */
+    left: 10px;     /* distance from left */
+    width: 120px;   /* size of overlay image */
+    height: auto;
+}
+
+
+.fp-text li,h3{
+  color: white;
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <h1 class="card-title">One membership for all your fitness needs</h1>
+                    <div class="row g-4">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card1.jpg" class="card-img-top"
+                                    alt="Service 1">
+                                <div class="card-body">
+                                    <p class="card-text">Aerial photography &
+                                        videography Agriculture (crop
+                                        monitoring, spraying)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card2.jpg" class="card-img-top"
+                                    alt="Service 2">
+                                <div class="card-body">
+                                    <p class="card-text">A drone bee is the male
+                                        bee in a colony. Main role: mate with
+                                        the queen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card3.jpg" class="card-img-top"
+                                    alt="Service 3">
+                                <div class="card-body">
+                                    <p class="card-text">They don’t collect
+                                        nectar or pollen. Lorem ipsum dolor sit
+                                        amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="Images/card4.jpg" class="card-img-top"
+                                    alt="Service 4">
+                                <div class="card-body">
+                                    <p class="card-text">A drone is a sustained
+                                        continuous sound or note.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */
