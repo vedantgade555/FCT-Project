@@ -107,8 +107,13 @@ li.nav-item{
 }
 
 .card:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
   z-index: 10;
+  box-shadow: 5px 5px 5px skyblue;
+}
+
+.card{
+  border-radius: 5px;
 }
 
 footer{
@@ -155,6 +160,41 @@ footer a{
 }
 
 
+.container.fp-back{
+   background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+
+
+
+
+/* <h3>Unlimited access to</h3>
+                                <ul>
+                                    <li>At-center group classes</li>
+                                    <li>All ELITE & PRO gyms</li>
+                                    <li>At-home live workouts</li>
+                                </ul> */
+
+
+ /* <h3>Unlimited access to</h3>
+                                <ul>
+                                    <li>All PRO gyms</li>
+                                    <li>2 Sessions/month at ELITE gyms & group
+                                        classes</li>
+                                    <li>At-home live workouts</li>
+                                </ul> */
+
+
+ /* <h3>Unlimited access to</h3>
+                                <ul>
+                                    <li>At home workouts</li>
+                                    <li>Celebrity Workouts</li>
+                                    <li>Goal-based Workouts and Meditation
+                                        Sessions</li>
+                                </ul> */
 
 
 
@@ -172,6 +212,7 @@ footer a{
 
 
 
+/* 
 
 
 
@@ -180,54 +221,131 @@ footer a{
 
 
 
+<section class="fit-pass-section mt-5">
+                <div class="container mb-5 fit-pass-section">
+                    <div class="row">
+                        <h1 class="fitpass">FIT PASS</h1>
 
+                        <div class="col-md-4 image-container fp">
 
+                            <section class="image-container">
+                                <!-- Background Image -->
+                                <img src="Images/elite-img.webp"
+                                    alt="elite-image"
+                                    class="img-fluid bg-image">
 
+                                <!-- Overlay Image -->
+                                <img src="Images/elite.webp"
+                                    alt="elite"
+                                    class="img-fluid overlay-image">
+                            </section>
 
+                            <section class="fp-text">
+                                <h3>Unlimited access to</h3>
+                                <ul>
+                                    <li>At-center group classes</li>
+                                    <li>All ELITE & PRO gyms</li>
+                                    <li>At-home live workouts</li>
+                                </ul>
+                            </section>
 
-/* <h1 class="card-title">One membership for all your fitness needs</h1>
-                    <div class="row g-4">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card1.jpg" class="card-img-top"
-                                    alt="Service 1">
-                                <div class="card-body">
-                                    <p class="card-text">Aerial photography &
-                                        videography Agriculture (crop
-                                        monitoring, spraying)</p>
+                            <section class="pt-5 pb-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button type="button" class="btn btn-outline-secondary">Try For Free</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button type="button"
+                                                class="btn bg-dark text-danger">Learn
+                                                More</button>
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </section>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card2.jpg" class="card-img-top"
-                                    alt="Service 2">
-                                <div class="card-body">
-                                    <p class="card-text">A drone bee is the male
-                                        bee in a colony. Main role: mate with
-                                        the queen.</p>
+
+                        <div class="col-md-4">
+                            <section class="image-container">
+                                <!-- Background Image -->
+                                <img src="Images/pro-img.png"
+                                    alt="elite-image"
+                                    class="img-fluid bg-image">
+
+                                <!-- Overlay Image -->
+                                <img src="Images/pro.webp"
+                                    alt="elite"
+                                    class="img-fluid overlay-image">
+                            </section>
+
+                            <section class="fp-text">
+                                <h3>Unlimited access to</h3>
+                                <ul>
+                                    <li>All PRO gyms</li>
+                                    <li>2 Sessions/month at ELITE gyms & group
+                                        classes</li>
+                                    <li>At-home live workouts</li>
+                                </ul>
+                            </section>
+
+                             <section class="pt-5 pb-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button type="button" class="btn btn-outline-secondary">Try For Free</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button type="button"
+                                                class="btn bg-dark text-danger">Learn
+                                                More</button>
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </section>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card3.jpg" class="card-img-top"
-                                    alt="Service 3">
-                                <div class="card-body">
-                                    <p class="card-text">They don’t collect
-                                        nectar or pollen. Lorem ipsum dolor sit
-                                        amet.</p>
+                        <div class="col-md-4">
+                            <section class="image-container">
+                                <!-- Background Image -->
+                                <img src="Images/home-img.webp"
+                                    alt="elite-image"
+                                    class="img-fluid bg-image">
+
+                                <!-- Overlay Image -->
+                                <img src="Images/home.webp"
+                                    alt="elite"
+                                    class="img-fluid overlay-image">
+                            </section>
+
+                            <section class="fp-text">
+                                <h3>Unlimited access to</h3>
+                                <ul>
+                                    <li>At home workouts</li>
+                                    <li>Celebrity Workouts</li>
+                                    <li>Goal-based Workouts and Meditation
+                                        Sessions</li>
+                                </ul>
+                            </section>
+
+                             <section class="pt-5 pb-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button type="button" class="btn btn-outline-secondary">Try For Free</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button type="button"
+                                                class="btn bg-dark text-danger">Learn
+                                                More</button>
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </section>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card4.jpg" class="card-img-top"
-                                    alt="Service 4">
-                                <div class="card-body">
-                                    <p class="card-text">A drone is a sustained
-                                        continuous sound or note.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */
+
+                    </div>
+                </div>
+
+            </section> */
