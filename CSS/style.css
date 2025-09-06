@@ -30,8 +30,10 @@ body {
 h1.card-title,.fitpass {
   color: white;
   padding-bottom: 10px;
-  font-size:50px;
+  font-size:40px;
   text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 
@@ -103,18 +105,28 @@ li.nav-item{
 }
 
 .card {
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out; /* Smooth animation for scaling */
+}
+
+.card:hover {
+  transform: scale(1.05);                /* Slight zoom on hover */
+  z-index: 10;                           /* Brings the card above others */
+  box-shadow: 5px 5px 5px skyblue;       /* Adds a sky-blue shadow */
 }
 
 .card:hover {
   transform: scale(1.05);
   z-index: 10;
-  box-shadow: 5px 5px 5px skyblue;
+  box-shadow: 5px 5px 5px rgba(0, 191, 255, 0.5) !important;
 }
+
+
 
 .card{
   border-radius: 5px;
 }
+
+
 
 footer{
   background-color: #111213;
@@ -134,30 +146,8 @@ footer a{
 
 /* Image Overlap */
 
-.image-container {
-    position: relative;   /* makes this the reference for absolute positioning */
-    display: inline-block;
-}
-
-.bg-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.overlay-image {
-    position: absolute;
-    bottom: 10px;   /* distance from bottom */
-    left: 10px;     /* distance from left */
-    width: 120px;   /* size of overlay image */
-    height: auto;
-}
 
 
-.fp-text li,h3{
-  color: white;
-  padding-top: 5px;
-}
 
 
 .container.fp-back{
@@ -166,186 +156,14 @@ footer a{
   background-size: cover; 
 }
 
+img {
+  transition: transform 0.7s ease-in-out; /* Smooth animation for scaling */
+}
+
+.ia img:hover{
+  /* box-shadow: 5px 5px 5px skyblue; */
+  transform: scale(1.05);
+  z-index: 10;
+}
 
 
-
-
-
-/* <h3>Unlimited access to</h3>
-                                <ul>
-                                    <li>At-center group classes</li>
-                                    <li>All ELITE & PRO gyms</li>
-                                    <li>At-home live workouts</li>
-                                </ul> */
-
-
- /* <h3>Unlimited access to</h3>
-                                <ul>
-                                    <li>All PRO gyms</li>
-                                    <li>2 Sessions/month at ELITE gyms & group
-                                        classes</li>
-                                    <li>At-home live workouts</li>
-                                </ul> */
-
-
- /* <h3>Unlimited access to</h3>
-                                <ul>
-                                    <li>At home workouts</li>
-                                    <li>Celebrity Workouts</li>
-                                    <li>Goal-based Workouts and Meditation
-                                        Sessions</li>
-                                </ul> */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-
-
-
-
-
-
-
-<section class="fit-pass-section mt-5">
-                <div class="container mb-5 fit-pass-section">
-                    <div class="row">
-                        <h1 class="fitpass">FIT PASS</h1>
-
-                        <div class="col-md-4 image-container fp">
-
-                            <section class="image-container">
-                                <!-- Background Image -->
-                                <img src="Images/elite-img.webp"
-                                    alt="elite-image"
-                                    class="img-fluid bg-image">
-
-                                <!-- Overlay Image -->
-                                <img src="Images/elite.webp"
-                                    alt="elite"
-                                    class="img-fluid overlay-image">
-                            </section>
-
-                            <section class="fp-text">
-                                <h3>Unlimited access to</h3>
-                                <ul>
-                                    <li>At-center group classes</li>
-                                    <li>All ELITE & PRO gyms</li>
-                                    <li>At-home live workouts</li>
-                                </ul>
-                            </section>
-
-                            <section class="pt-5 pb-5">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <button type="button" class="btn btn-outline-secondary">Try For Free</button>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <button type="button"
-                                                class="btn bg-dark text-danger">Learn
-                                                More</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div class="col-md-4">
-                            <section class="image-container">
-                                <!-- Background Image -->
-                                <img src="Images/pro-img.png"
-                                    alt="elite-image"
-                                    class="img-fluid bg-image">
-
-                                <!-- Overlay Image -->
-                                <img src="Images/pro.webp"
-                                    alt="elite"
-                                    class="img-fluid overlay-image">
-                            </section>
-
-                            <section class="fp-text">
-                                <h3>Unlimited access to</h3>
-                                <ul>
-                                    <li>All PRO gyms</li>
-                                    <li>2 Sessions/month at ELITE gyms & group
-                                        classes</li>
-                                    <li>At-home live workouts</li>
-                                </ul>
-                            </section>
-
-                             <section class="pt-5 pb-5">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <button type="button" class="btn btn-outline-secondary">Try For Free</button>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <button type="button"
-                                                class="btn bg-dark text-danger">Learn
-                                                More</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="col-md-4">
-                            <section class="image-container">
-                                <!-- Background Image -->
-                                <img src="Images/home-img.webp"
-                                    alt="elite-image"
-                                    class="img-fluid bg-image">
-
-                                <!-- Overlay Image -->
-                                <img src="Images/home.webp"
-                                    alt="elite"
-                                    class="img-fluid overlay-image">
-                            </section>
-
-                            <section class="fp-text">
-                                <h3>Unlimited access to</h3>
-                                <ul>
-                                    <li>At home workouts</li>
-                                    <li>Celebrity Workouts</li>
-                                    <li>Goal-based Workouts and Meditation
-                                        Sessions</li>
-                                </ul>
-                            </section>
-
-                             <section class="pt-5 pb-5">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <button type="button" class="btn btn-outline-secondary">Try For Free</button>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <button type="button"
-                                                class="btn bg-dark text-danger">Learn
-                                                More</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section> */
