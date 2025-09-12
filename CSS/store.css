@@ -187,7 +187,7 @@ footer a{
       color: #28a745;
       margin-bottom: 15px;
     }
-    .btn-buy {
+    /* .btn-buy {
       background-color: #ff5722;
       border: none;
       padding: 10px 20px;
@@ -198,9 +198,25 @@ footer a{
     }
     .btn-buy:hover {
       background-color: #e64a19;
-    }
+    } */
 
-    
+   /* button.btn-buy {
+  background-color: #ff5722 !important;
+  color: white !important;   
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button.btn-buy:hover {
+  background-color: #e64a19 !important;
+  transform: scale(1.05);
+} */
+
+
 
 
   
@@ -248,7 +264,7 @@ footer a{
       color: #28a745;
       margin-bottom: 15px;
     }
-    .btn-buy {
+    /* .btn-buy {
       background-color: #ff5722;
       border: none;
       padding: 10px 20px;
@@ -259,7 +275,7 @@ footer a{
     }
     .btn-buy:hover {
       background-color: #e64a19;
-    }
+    } */
 =======
 footer{
   
@@ -294,6 +310,11 @@ footer{
     z-index: 1; /* keep text above overlay */
     letter-spacing: 3px;
 }
+
+
+
+
+
 >>>>>>> 9683b5c58d5cfed30236191698ad185d114f47ce
 >>>>>>> 6d834b3b408b98ec7d925c6ada481c26d4fcfe70
 
