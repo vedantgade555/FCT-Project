@@ -1,3 +1,6 @@
+* {
+  font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
 main{
   background-image: url("/backgroundImages/bg-gold.webp");
   /* background-repeat: no-repeat; */
