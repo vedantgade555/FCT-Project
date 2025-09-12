@@ -1,6 +1,9 @@
 * {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
+
+
+
 
 body {
   background-image: url("/backgroundImages/blue.png");
@@ -13,9 +16,9 @@ body {
   text-align: center;
   font-weight: bold;
   /* background-color: ; */
-  font-size: 1.5rem;
+  /* font-size: 1rem; */
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   /* background: linear-gradient(to right,rgb(17, 13, 21),rgb(18,176,204),rgb(232, 7, 217));
   background-clip:text;
   -webkit-text-fill-color: transparent; */
@@ -27,8 +30,10 @@ body {
 h1.card-title,.fitpass {
   color: white;
   padding-bottom: 10px;
-  font-size: 100px;
+  font-size:40px;
   text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 
@@ -100,13 +105,28 @@ li.nav-item{
 }
 
 .card {
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out; /* Smooth animation for scaling */
 }
 
 .card:hover {
-  transform: scale(1.15);
-  z-index: 10;
+  transform: scale(1.05);                /* Slight zoom on hover */
+  z-index: 10;                           /* Brings the card above others */
+  box-shadow: 5px 5px 5px skyblue;       /* Adds a sky-blue shadow */
 }
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 5px 5px 5px rgba(0, 191, 255, 0.5) !important;
+}
+
+
+
+.card{
+  border-radius: 5px;
+}
+
+
 
 footer{
   background-color: #111213;
@@ -126,105 +146,24 @@ footer a{
 
 /* Image Overlap */
 
-.image-container {
-    position: relative;   /* makes this the reference for absolute positioning */
-    display: inline-block;
+
+
+
+
+.container.fp-back{
+   background-image: url("/backgroundImages/pink.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
-.bg-image {
-    width: 100%;
-    height: auto;
-    display: block;
+img {
+  transition: transform 0.7s ease-in-out; /* Smooth animation for scaling */
 }
 
-.overlay-image {
-    position: absolute;
-    bottom: 10px;   /* distance from bottom */
-    left: 10px;     /* distance from left */
-    width: 120px;   /* size of overlay image */
-    height: auto;
-}
-
-
-.fp-text li,h3{
-  color: white;
-  padding-top: 5px;
+.ia img:hover{
+  /* box-shadow: 5px 5px 5px skyblue; */
+  transform: scale(1.05);
+  z-index: 10;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <h1 class="card-title">One membership for all your fitness needs</h1>
-                    <div class="row g-4">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card1.jpg" class="card-img-top"
-                                    alt="Service 1">
-                                <div class="card-body">
-                                    <p class="card-text">Aerial photography &
-                                        videography Agriculture (crop
-                                        monitoring, spraying)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card2.jpg" class="card-img-top"
-                                    alt="Service 2">
-                                <div class="card-body">
-                                    <p class="card-text">A drone bee is the male
-                                        bee in a colony. Main role: mate with
-                                        the queen.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card3.jpg" class="card-img-top"
-                                    alt="Service 3">
-                                <div class="card-body">
-                                    <p class="card-text">They don’t collect
-                                        nectar or pollen. Lorem ipsum dolor sit
-                                        amet.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img src="Images/card4.jpg" class="card-img-top"
-                                    alt="Service 4">
-                                <div class="card-body">
-                                    <p class="card-text">A drone is a sustained
-                                        continuous sound or note.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */
