@@ -1,3 +1,6 @@
+* {
+  font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
 .elite1 h1{
     color: white;
     padding-bottom: 1rem;
@@ -7,9 +10,9 @@
 
 .elite1 li{
     color: white;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .elite1 h4{
@@ -17,9 +20,6 @@
     color: white;
 }
 
-button{
-    background-color: white;
-}
 
 
 .container p{
