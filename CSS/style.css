@@ -6,7 +6,7 @@
 
 
 body {
-  background-image: url("/backgroundImages/blue.png");
+  background-image: url("../backgroundImages/blue.png");
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
@@ -151,7 +151,7 @@ footer a{
 
 
 .container.fp-back{
-   background-image: url("/backgroundImages/pink.png");
+   background-image: url("../backgroundImages/pink.png");
   background-repeat: no-repeat;
   background-size: cover; 
 }
