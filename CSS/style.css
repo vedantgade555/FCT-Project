@@ -6,7 +6,7 @@
 
 
 body {
-  background-image: url("./backgroundImages/blue.png");
+  background-image: url("../backgroundImages/blue.png");
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
@@ -48,7 +48,7 @@ h1.card-title,.fitpass {
 }
 
 .fit-pass-section{
-  background-image: url("./backgroundImages/pink.png");
+  background-image: url("../backgroundImages/pink.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: aliceblue; */
@@ -151,7 +151,7 @@ footer a{
 
 
 .container.fp-back{
-   background-image: url("backgroundImages/pink.png");
+   background-image: url("../backgroundImages/pink.png");
   background-repeat: no-repeat;
   background-size: cover; 
 }
