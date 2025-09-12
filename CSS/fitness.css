@@ -3,7 +3,7 @@
 }
 body{
   /* background-color: #050303; */
-  background-image: url("/backgroundImages/blue.png");
+  background-image: url("backgroundImages/blue.png");
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -83,7 +83,7 @@ h4.card-head{
 }
 
 .fit-pass-section{
-  background-image: url("/backgroundImages/pink.png");
+  background-image: url("backgroundImages/pink.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: aliceblue; */
