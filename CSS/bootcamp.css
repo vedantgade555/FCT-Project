@@ -2,7 +2,9 @@
   font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 body{
-  background-color: black;
+   background-image: url("../backgroundImages/blue.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 main{
   background-image: url("../backgroundImages/bg-gold.jpg");
