@@ -9,7 +9,7 @@ main{
 
 .slide-near{
   background-image: url("../backgroundImages/bg-gold.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;   
   height: 100px;
 }
