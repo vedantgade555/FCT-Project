@@ -2,13 +2,13 @@
   font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 main{
-  background-image: url("../backgroundImages/blue.png");
+  background-image: url("../backgroundImages/bg-gold.jpg");
   /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
 .slide-near{
-  background-image: url("../backgroundImages/blue.png");
+  background-image: url("../backgroundImages/bg-gold.jpg");
   background-repeat: no-repeat;
   background-size: cover;   
   height: 100px;
