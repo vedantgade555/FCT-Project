@@ -1,6 +1,9 @@
 * {
   font-family: 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
+body{
+  background-color: black;
+}
 main{
   background-image: url("../backgroundImages/bg-gold.jpg");
   /* background-repeat: no-repeat; */
