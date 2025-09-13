@@ -8,7 +8,7 @@ body{
 }
 main{
   background-image: url("../backgroundImages/bg-gold.jpg");
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
