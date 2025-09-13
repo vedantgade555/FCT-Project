@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("backgroundImages/blue.png");
+  background-image: url("../backgroundImages/blue.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,7 +46,7 @@ h1.card-title,.fitpass {
 }
 
 .fit-pass-section{
-  background-image: url("backgroundImages/pink.png");
+  background-image: url("../backgroundImages/pink.png");
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -258,7 +258,7 @@ button.btn-buy:hover {
 
 footer{
   
-  background-image: url("backgroundImages/yellowlines.jpg");
+  background-image: url("../backgroundImages/yellowlines.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
